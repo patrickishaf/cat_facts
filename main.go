@@ -59,5 +59,5 @@ func main() {
 		data := fetchCatFact()
 		sendResponse(&w, data)
 	})
-	http.ListenAndServe(":3000", nil)
+	http.ListenAndServe(":8080", nil)
 }
